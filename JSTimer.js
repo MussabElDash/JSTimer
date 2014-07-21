@@ -39,6 +39,11 @@ if (typeof jQuery === 'undefined') { throw new Error('JSTimer requires jQuery') 
 		}
 
 		var decrement = function () {
+			if(this.milliSecond == 0){
+				clearInterval(this.timer);
+				onInverseStop.call(this);
+				return;
+			}
 			this.milliSecond -= step;
 			setTimeToElements.call(this);
 			if ( (milliSecondsStart - this.milliSecond) % milliSeconds == 0){
