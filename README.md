@@ -1,7 +1,5 @@
 # JSTimer
 
----
-
 
 A JavaScript library for Timer
 
@@ -111,8 +109,6 @@ timer.start();```
 * JQuery only
 
 ## Licence
-
----
 
 JSTimer is licensed under MIT http://www.opensource.org/licenses/MIT
 
