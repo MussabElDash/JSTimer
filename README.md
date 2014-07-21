@@ -9,8 +9,10 @@ This Library can be used to do a certain functionality every certian milliSecond
 ## Usage
 To get the time we could use
 ```var timer = Timer(function, milliSeconds[, options])```
-or ```
-    var timer = new Timer(function, milliseconds[, options])```
+
+or
+
+```var timer = new Timer(function, milliseconds[, options])```
     
 * **function :** The function that needs to be executed
 * **milliSeconds :** The time interval between two consecutive execution of the function
@@ -27,9 +29,7 @@ or ```
     * **seconds :** The number of seconds the timer starts at (available in both count down and count up)
     * **hours :** The number of hours the timer starts at (available in both count down and count up)
 
----
-
----
+----------
 
 There are also setters and getters for those options if they are wanted to be added later :
  - **milliSecondsSelector() :** sets and gets the current millisecondsSelector
