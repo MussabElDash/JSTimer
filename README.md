@@ -1,5 +1,5 @@
 # JSTimer
-----------
+---
 
 
 A JavaScript library for Timer
@@ -30,7 +30,7 @@ or
     * **seconds :** The number of seconds the timer starts at (available in both count down and count up)
     * **hours :** The number of hours the timer starts at (available in both count down and count up)
 
-----------
+---
 
 There are also setters and getters for those options if they are wanted to be added later :
  - **milliSecondsSelector() :** sets and gets the current millisecondsSelector
@@ -51,7 +51,7 @@ There are also setters and getters for those options if they are wanted to be ad
  - **pureMinutes() :** sets and gets the current timer in minutes
 
 ## Licence
-----------
+---
 JSTimer is licensed under MIT http://www.opensource.org/licenses/MIT
 
 #### Copyright &copy;, Mussab ElDash
