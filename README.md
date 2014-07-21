@@ -14,7 +14,8 @@ To get the time we could use
 or
 
 ```var timer = new Timer(function, milliseconds[, options])```
-    
+
+### Options
 * **function :** The function that needs to be executed
 * **milliSeconds :** The time interval between two consecutive execution of the function
 * **options :** There are good number of options that can be used here 
@@ -32,6 +33,7 @@ or
 
 ---
 
+### Methods
 There are also setters and getters for those options if they are wanted to be added later :
  - **milliSecondsSelector() :** sets and gets the current millisecondsSelector
  - **secondsSelector() :** sets and gets the current secondsSelector
