@@ -72,6 +72,10 @@ if (typeof jQuery === 'undefined') { throw new Error('JSTimer requires jQuery') 
 		}
 
 		this.inverseStart = function () {
+			setTimeToElements.call(this);
+			if( (this.milliSecond - milliSecondsStart) % milliSeconds == 0){
+				functionToBeCalled.call(this);
+			}
 			var contextThis = this;
 			this.timer = setInterval(function(){
 				decrement.call(contextThis);
@@ -79,6 +83,10 @@ if (typeof jQuery === 'undefined') { throw new Error('JSTimer requires jQuery') 
 		}
 
 		this.start = function () {
+			setTimeToElements.call(this);
+			if( (this.milliSecond + milliSecondsStart) % milliSeconds == 0){
+				functionToBeCalled.call(this);
+			}
 			var contextThis = this;
 			this.timer = setInterval(function(){
 				increment.call(contextThis);
