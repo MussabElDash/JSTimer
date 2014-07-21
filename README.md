@@ -40,6 +40,16 @@ or
     * **seconds :** The number of seconds the timer starts at (available in both count down and count up)
     * **hours :** The number of hours the timer starts at (available in both count down and count up)
 
+#### Defaults
+* **milliSecondsSelector :** ```""```
+* **secondsSelector :** ```""```
+* **minutesSelector :** ```""```
+* **hoursSelector :** ```""```
+* **pureMilliSecondsSelector :** ```""```
+* **pureSecondsSelector :** ```""```
+* **onInverseStop :** ```function(){}```
+* **leadingZero :** ```true```
+
 ---
 
 ### Methods
