@@ -101,7 +101,7 @@ timer.inverseStart();```
 }, 10000);
 timer.start();```
 
-**The above code will show the double of the current seconds every 10 seconds (20, 40, 60, 80, 100, ....)**
+**The above code will show the double of the current seconds every 10 seconds (20, 40, 60, 80, 100, 0, 20, 40, ....)**
 
 ---
 
