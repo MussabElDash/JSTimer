@@ -69,7 +69,7 @@ There are also setters and getters for those options if they are wanted to be ad
 
 **in the JavaScript code :**
 
-1. ```var timer = Timer(function(){}, 1000, {
+1) ```var timer = Timer(function(){}, 1000, {
     secondsSelector: "#secs",
     minutesSelector: "#mins",
     hoursSelector: "#hours"
@@ -78,7 +78,7 @@ timer.start();```
 
 **The above code will display a timer in the spans**
 
-2. ```var timer = Timer(function(){}, 1000, {
+2) ```var timer = Timer(function(){}, 1000, {
    seconds: 120,
    onInverseStop: function(){
       alert("The timer has Stopped");
