@@ -8,6 +8,7 @@ This Library can be used to do a certain functionality every certian milliSecond
 
 ## Usage
 To get the time we could use
+
 ```var timer = Timer(function, milliSeconds[, options])```
 
 or
