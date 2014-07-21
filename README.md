@@ -75,11 +75,11 @@ There are also setters and getters for those options if they are wanted to be ad
 
 **in the HTML file :**
 
-```<span id="hours"></span> : <span id="mins"></span> : <span id="secs"></span>```
+```<span id="hours"></span> : <span id="mins"></span> : <span id="secs"></span><br><span id="double"></span>``````
 
 **in the JavaScript code :**
 
-1) ```var timer = Timer(function(){}, 1000, {
+1) ```var timer = JSTimer(function(){}, 1000, {
     secondsSelector: "#secs",
     minutesSelector: "#mins",
     hoursSelector: "#hours"
@@ -88,7 +88,7 @@ timer.start();```
 
 **The above code will display a timer in the spans**
 
-2) ```var timer = Timer(function(){}, 1000, {
+2) ```var timer = JSTimer(function(){}, 1000, {
    seconds: 120,
    onInverseStop: function(){
       alert("The timer has Stopped");
@@ -97,6 +97,18 @@ timer.start();```
 timer.inverseStart();```
 
 **The above code will display a down timer starting from 2 minutes (00:02:00) in the spans and when the timer reaches 00:00:00 will show an alert message**
+
+3) ```var timer = JSTimer(function(){
+   $("#double").text(2 * this.seconds());
+}, 10000);
+timer.start();```
+
+**The above code will show the double of the current seconds every 10 seconds (20, 40, 60, 80, 100, ....)**
+
+---
+
+## Requirments:
+* JQuery only
 
 ## Licence
 
