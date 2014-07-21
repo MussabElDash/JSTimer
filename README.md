@@ -18,7 +18,7 @@ or
 * **function :** The function that needs to be executed
 * **milliSeconds :** The time interval between two consecutive execution of the function
 * **options :** There are good number of options that can be used here 
-    * **milliSecondsSelector : ** A JQuery selector of the DOM elements that will display the current timer milliSeconds
+    * **milliSecondsSelector :** A JQuery selector of the DOM elements that will display the current timer milliSeconds
     * **secondsSelector :** A JQuery selector of the DOM elements that will display the current timer seconds
     * **minutesSelector :** A JQuery selector of the DOM elements that will display the current timer minutes
     * **hoursSelector :** A JQuery selector of the DOM elements that will display the current timer hours
