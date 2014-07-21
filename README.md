@@ -16,7 +16,7 @@ or
 
 ```var timer = new Timer(function, milliseconds[, options])```
 
-and to start:
+**and to start :**
 
 ```timer.start()``` to start the up timer
 
