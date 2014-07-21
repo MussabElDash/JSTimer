@@ -16,6 +16,14 @@ or
 
 ```var timer = new Timer(function, milliseconds[, options])```
 
+and to start:
+
+```timer.start()``` to start the up timer
+
+or
+
+```timer.inverseStart()``` to start the down timer
+
 ### Options
 * **function :** The function that needs to be executed
 * **milliSeconds :** The time interval between two consecutive execution of the function
