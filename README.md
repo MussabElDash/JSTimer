@@ -61,6 +61,33 @@ There are also setters and getters for those options if they are wanted to be ad
  - **pureSeconds() :** sets and gets the current timer in seconds
  - **pureMinutes() :** sets and gets the current timer in minutes
 
+## Examples
+
+**in the HTML file :**
+
+```<span id="hours"></span> : <span id="mins"></span> : <span id="secs"></span>```
+
+**in the JavaScript code :**
+
+1. ```var timer = Timer(function(){}, 1000, {
+    secondsSelector: "#secs",
+    minutesSelector: "#mins",
+    hoursSelector: "#hours"
+});
+timer.start();```
+
+**The above code will display a timer in the spans**
+
+2. ```var timer = Timer(function(){}, 1000, {
+   seconds: 120,
+   onInverseStop: function(){
+      alert("The timer has Stopped");
+   }
+});
+timer.inverseStart();```
+
+**The above code will display a down timer starting from 2 minutes (00:02:00) in the spans and when the timer reaches 00:00:00 will show an alert message**
+
 ## Licence
 
 ---
