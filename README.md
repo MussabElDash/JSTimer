@@ -1,4 +1,5 @@
 # JSTimer
+
 ---
 
 
@@ -53,7 +54,9 @@ There are also setters and getters for those options if they are wanted to be ad
  - **pureMinutes() :** sets and gets the current timer in minutes
 
 ## Licence
+
 ---
+
 JSTimer is licensed under MIT http://www.opensource.org/licenses/MIT
 
 #### Copyright &copy;, Mussab ElDash
